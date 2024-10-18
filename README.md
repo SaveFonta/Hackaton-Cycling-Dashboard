@@ -16,16 +16,15 @@ The dashboard is particularly valuable for city administration, allowing them to
 
 - **Heatmap Visualization:** 
   - Displays accident locations as a heatmap, helping to identify high-density accident areas.
-  - ![Heatmap Example](Images/Screenshot 2024-10-18 181825.png)
+  ![Alt text](Images/Screenshot 2024-10-18 181825.png)
 
 - **Cluster Analysis:** 
   - Utilizes DBSCAN clustering to group accident locations, revealing areas with recurrent incidents.
-  - ![Cluster Analysis Example](Images/Screenshot 2024-10-18 181932.png)
+   ![Alt text](Images/Screenshot 2024-10-18 181932.png)
 
-- **Severity Mapping:** 
-  - Visualizes accident severity with color-coded markers, indicating the seriousness of each incident.
-  - ![Severity Mapping Example 1](Images/Screenshot 2024-10-18 182000.png)
-  - ![Severity Mapping Example 2](Images/Screenshot 2024-10-18 182023.png)
+- **Severity Mapping:** Visualize accident severity using color-coded markers to represent the severity of each incident.
+  ![Alt text](Images/Screenshot 2024-10-18 182000.png)
+  ![Alt text](Images/Screenshot 2024-10-18 182023.png)
 
 - **User-Friendly Filters:** 
   - Allows users to customize views based on plot type, year range, and clustering parameters.
