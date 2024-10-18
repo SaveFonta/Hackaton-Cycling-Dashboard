@@ -30,6 +30,9 @@ The dashboard is particularly valuable for city administration, allowing them to
 - **User-Friendly Filters:** 
   - Allows users to customize views based on plot type, year range, and clustering parameters.
 
+## Conclusion
+This dashboard is designed to provide actionable insights for stakeholders interested in improving cycling safety in Zürich. By leveraging data visualization and analysis, we aim to contribute to a safer cycling environment for all.
+
 ## Installation
 
 To run this application, ensure you have R installed along with the following packages:
@@ -37,5 +40,3 @@ To run this application, ensure you have R installed along with the following pa
 ```r
 install.packages(c("shiny", "shinythemes", "leaflet", "leaflet.extras", "sf", "ggplot2", "dbscan", "dplyr", "bslib"))
 
-## Conclusion
-This dashboard is designed to provide actionable insights for stakeholders interested in improving cycling safety in Zürich. By leveraging data visualization and analysis, we aim to contribute to a safer cycling environment for all.
