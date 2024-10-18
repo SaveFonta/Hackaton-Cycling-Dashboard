@@ -16,7 +16,7 @@ The dashboard is particularly valuable for city administration, allowing them to
 
 - **Heatmap Visualization:** 
   - Displays accident locations as a heatmap, helping to identify high-density accident areas.
-  ![Alt text](Images/Screenshot 2024-10-18 181825.png)
+  ![Alt text](Images/Heat.png)
 
 - **Cluster Analysis:** 
   - Utilizes DBSCAN clustering to group accident locations, revealing areas with recurrent incidents.
