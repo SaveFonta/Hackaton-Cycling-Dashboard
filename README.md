@@ -20,11 +20,11 @@ The dashboard is particularly valuable for city administration, allowing them to
 
 - **Cluster Analysis:** 
   - Utilizes DBSCAN clustering to group accident locations, revealing areas with recurrent incidents.
-   ![Alt text](Images/Screenshot 2024-10-18 181932.png)
+   ![Alt text](Images/cluster.png)
 
 - **Severity Mapping:** Visualize accident severity using color-coded markers to represent the severity of each incident.
-  ![Alt text](Images/Screenshot 2024-10-18 182000.png)
-  ![Alt text](Images/Screenshot 2024-10-18 182023.png)
+  ![Alt text](Images/severity.png)
+  ![Alt text](Images/severity2.png)
 
 - **User-Friendly Filters:** 
   - Allows users to customize views based on plot type, year range, and clustering parameters.
