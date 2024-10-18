@@ -1,24 +1,41 @@
-# Hackaton Cycling Dashboard
-This dashboard was developed to compete in the Hackaton, organized by the ETH-based association "Sports Analytics Club". Some of the partners were Swiss Cycling, Eviden AG, Veloforum, City of Zurich, Traffic Division and Kanton Zürich, Fachstelle Veloverkehr. 
+# Hackathon Cycling Dashboard
 
-The main question was "How might we use technology to address the increase in (e)Bike accidents and encourage safe adoption of cycling in Zürich?" 
+This dashboard was created for the Hackathon organized by the ETH-based association "Sports Analytics Club." Partners for this event included Swiss Cycling, Eviden AG, Veloforum, the City of Zurich, Traffic Division, and Kanton Zürich, Fachstelle Veloverkehr.
 
-# Bicycle Accident Analysis Dashboard
-This Shiny application provides an interactive tool for analyzing bicycle accident data. Using this dashboard, you can explore the accident locations, visualize accident density with heatmaps, identify clusters of accidents, and observe the severity of incidents based on various filters and visualization methods.
+## Overview
 
-The goal was to identify and then classify, high-accident-inclined area in the city of Zurich. This way, it is possible to tackle those areas
+The primary goal of this project was to explore how technology can be leveraged to address the rising number of (e)Bike accidents and to promote safe cycling practices in Zürich. 
+
+## Bicycle Accident Analysis Dashboard
+
+This Shiny application serves as an interactive tool for analyzing bicycle accident data in Zürich. It enables users to explore accident locations, visualize accident density through heatmaps, identify clusters of incidents, and evaluate the severity of accidents using various filters and visualization techniques.
+
+The dashboard is particularly valuable for city administration, allowing them to identify and classify high-incident areas. By focusing on these locations, there is potential to enhance cycling safety throughout the city.
+
 ## Features
 
-- **Heatmap Visualization:** Display accident locations as a heatmap to identify areas with a high density of accidents.
-- **Cluster Analysis:** Use DBSCAN clustering to group accident locations, helping to reveal areas with recurrent accidents.
-- **Severity Mapping:** Visualize accident severity using color-coded markers to represent the severity of each incident.
-- **User-friendly Filters:** Use filters to customize views by plot type, year range, and clustering parameters.
-  
+- **Heatmap Visualization:** 
+  - Displays accident locations as a heatmap, helping to identify high-density accident areas.
+  - ![Heatmap Example](Images/Screenshot 2024-10-18 181825.png)
+
+- **Cluster Analysis:** 
+  - Utilizes DBSCAN clustering to group accident locations, revealing areas with recurrent incidents.
+  - ![Cluster Analysis Example](Images/Screenshot 2024-10-18 181932.png)
+
+- **Severity Mapping:** 
+  - Visualizes accident severity with color-coded markers, indicating the seriousness of each incident.
+  - ![Severity Mapping Example 1](Images/Screenshot 2024-10-18 182000.png)
+  - ![Severity Mapping Example 2](Images/Screenshot 2024-10-18 182023.png)
+
+- **User-Friendly Filters:** 
+  - Allows users to customize views based on plot type, year range, and clustering parameters.
+
 ## Installation
 
-To run this application, you'll need R and the following packages installed:
+To run this application, ensure you have R installed along with the following packages:
 
 ```r
 install.packages(c("shiny", "shinythemes", "leaflet", "leaflet.extras", "sf", "ggplot2", "dbscan", "dplyr", "bslib"))
 
- 
+## Conclusion
+This dashboard is designed to provide actionable insights for stakeholders interested in improving cycling safety in Zürich. By leveraging data visualization and analysis, we aim to contribute to a safer cycling environment for all.
